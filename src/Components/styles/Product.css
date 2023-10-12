@@ -1,0 +1,28 @@
+.content-product {
+    height: 20rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.content-product h2 {
+    font-size: 3rem;
+}
+
+.features {
+    display: flex;
+}
+
+.anon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.anon p {
+    text-align: center;
+}

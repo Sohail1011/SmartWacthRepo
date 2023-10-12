@@ -6,14 +6,14 @@ const Navigation = () => {
         <header>
             <nav className="navigation">
                 <img src={Logo} alt="Logo" />
-                <ul>
-                    <li>Home</li>
-                    <li>Features</li>
-                    <li>About</li>
-                    <li>Product</li>
-                    <li>Faq</li>
-                    <li>Testimonial</li>
-                    <li>Contact</li>
+                <ul className='items'>
+                    <li><a className='special' href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Faq</a></li>
+                    <li><a href="#">Testimonial</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </header>
