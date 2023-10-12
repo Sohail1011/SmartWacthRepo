@@ -1,0 +1,24 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.navigation img {
+    height: 3rem;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.navigation li {
+    font-weight: 600;
+}
+
+.navigation li:first-child {
+    color: #CB9386;
+}
