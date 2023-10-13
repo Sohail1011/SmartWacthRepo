@@ -13,8 +13,9 @@
 }
 
 .features {
-    margin-top: 6rem;
+    /* margin-top: 0.1rem; */
     display: flex;
+    padding: 4rem;
 }
 
 .anon {
@@ -22,6 +23,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
     gap: 1rem;
 }
 
