@@ -7,7 +7,7 @@ const Navigation = () => {
             <nav className="navigation">
                 <img src={Logo} alt="Logo" />
                 <ul className='items'>
-                    <li><a className='special' href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
                     <li><a href="#">Features</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Product</a></li>

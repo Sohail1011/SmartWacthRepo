@@ -17,8 +17,8 @@ body {
   height: 70vh;
   display: flex;
   align-items: center;
-  padding: 3rem;
-  gap: 5rem;
+  padding: 5rem;
+  gap: 30rem;
   margin-bottom: 5rem;
 }
 
@@ -30,12 +30,13 @@ body {
 }
 
 .text-intro h1 {
-  font-weight: 800;
-  font-size: 4rem;
+  font-weight: 700;
+  font-size: 5rem;
 }
 
 .text-intro p {
   color: gray;
+  text-align: left;
 }
 
 .text-intro button {
@@ -45,6 +46,17 @@ body {
   background-color: #E34A29;
   color: white;
   font-size: 1rem;
+}
+
+.text-intro button:hover {
+  background-color: black;
+  transition: all ease 0.5s;
+}
+
+.text-intro button:active {
+  background-color: #CB9386;
+  transition: all ease 0.3s;
+  color: black;
 }
 
 .container img {

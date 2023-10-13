@@ -26,6 +26,7 @@
     color: black;
 }
 
-.special {
-    color: #CB9386; 
+.items a:hover {
+    color: #CB9386;
+    transition: all ease 0.4s;
 }

@@ -9,7 +9,7 @@ export default function App() {
     <div className="container">
       <div className="text-intro">
         <h1>Smart Digital <br /> Watch For <br /> Luxurious Life</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo dignissimos expedita magnam eos error minus dolorum sapiente quibusdam dolores voluptatibus molestiae totam vero vel reiciendis laudantium voluptates, dolore amet asperiores!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo dignissimos expedita <br /> magnam eos error minus dolorum sapiente quibusdam dolores voluptatibus molestiae totam <br /> vero vel reiciendis laudantium voluptates, dolore amet asperiores!</p>
         <button>Buy Products</button>
       </div>
       <img src={AppleWatch} alt="SmartWatch" />
