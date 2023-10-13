@@ -41,6 +41,8 @@ body {
 
 .text-intro button {
   padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   font-family: 'Gabarito', sans-serif;
   border: none;
   background-color: #E34A29;

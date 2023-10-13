@@ -1,0 +1,35 @@
+.pages {
+    background-color: #F9F9F9;
+    min-height: 9rem;
+    display: flex;
+    padding-left: 25rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    gap: 2rem;
+}
+
+.container-text {
+    background-color: white;
+    min-width: 40rem;
+    box-shadow: 0 0 25px #EEEEEE;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 3rem;
+}
+
+.container-text h3 {
+    font-size: 3rem;
+}
+
+.container-text p {
+    color: grey;
+}
+
+.max-content {
+    display: grid;
+    grid-template-columns: 10px 260px;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}

@@ -1,3 +1,4 @@
+import { Information } from "./Components/Information";
 import Navigation from "./Components/Navigation";
 import { Product } from "./Components/Product";
 import AppleWatch from './img/SmartWatchApple.png';
@@ -15,6 +16,7 @@ export default function App() {
       <img src={AppleWatch} alt="SmartWatch" />
     </div>
     <Product />
+    <Information />
   </>
   )
 }
